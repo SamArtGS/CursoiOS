@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54A45BDF22B03A2C00EB7240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A45BDE22B03A2C00EB7240 /* AppDelegate.swift */; };
+		54A45BE122B03A2C00EB7240 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A45BE022B03A2C00EB7240 /* ViewController.swift */; };
+		54A45BE422B03A2C00EB7240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A45BE222B03A2C00EB7240 /* Main.storyboard */; };
+		54A45BE622B03A2D00EB7240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A45BE522B03A2D00EB7240 /* Assets.xcassets */; };
+		54A45BE922B03A2D00EB7240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A45BE722B03A2D00EB7240 /* LaunchScreen.storyboard */; };
+		54A45BF422B03A2D00EB7240 /* GenioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A45BF322B03A2D00EB7240 /* GenioTests.swift */; };
+		54A45BFF22B03A2D00EB7240 /* GenioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A45BFE22B03A2D00EB7240 /* GenioUITests.swift */; };
+		54A45C0D22B03F5A00EB7240 /* respuestaWish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A45C0C22B03F5A00EB7240 /* respuestaWish.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54A45BF022B03A2D00EB7240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54A45BD322B03A2C00EB7240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54A45BDA22B03A2C00EB7240;
+			remoteInfo = Genio;
+		};
+		54A45BFB22B03A2D00EB7240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54A45BD322B03A2C00EB7240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54A45BDA22B03A2C00EB7240;
+			remoteInfo = Genio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54A45BDB22B03A2C00EB7240 /* Genio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Genio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A45BDE22B03A2C00EB7240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54A45BE022B03A2C00EB7240 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54A45BE322B03A2C00EB7240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54A45BE522B03A2D00EB7240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54A45BE822B03A2D00EB7240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54A45BEA22B03A2D00EB7240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A45BEF22B03A2D00EB7240 /* GenioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A45BF322B03A2D00EB7240 /* GenioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenioTests.swift; sourceTree = "<group>"; };
+		54A45BF522B03A2D00EB7240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A45BFA22B03A2D00EB7240 /* GenioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A45BFE22B03A2D00EB7240 /* GenioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenioUITests.swift; sourceTree = "<group>"; };
+		54A45C0022B03A2D00EB7240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A45C0C22B03F5A00EB7240 /* respuestaWish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = respuestaWish.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54A45BD822B03A2C00EB7240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A45BEC22B03A2D00EB7240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A45BF722B03A2D00EB7240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54A45BD222B03A2C00EB7240 = {
+			isa = PBXGroup;
+			children = (
+				54A45BDD22B03A2C00EB7240 /* Genio */,
+				54A45BF222B03A2D00EB7240 /* GenioTests */,
+				54A45BFD22B03A2D00EB7240 /* GenioUITests */,
+				54A45BDC22B03A2C00EB7240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54A45BDC22B03A2C00EB7240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54A45BDB22B03A2C00EB7240 /* Genio.app */,
+				54A45BEF22B03A2D00EB7240 /* GenioTests.xctest */,
+				54A45BFA22B03A2D00EB7240 /* GenioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54A45BDD22B03A2C00EB7240 /* Genio */ = {
+			isa = PBXGroup;
+			children = (
+				54A45C0E22B03F9C00EB7240 /* Multimedia */,
+				54A45BDE22B03A2C00EB7240 /* AppDelegate.swift */,
+				54A45BE222B03A2C00EB7240 /* Main.storyboard */,
+				54A45BE022B03A2C00EB7240 /* ViewController.swift */,
+				54A45BE722B03A2D00EB7240 /* LaunchScreen.storyboard */,
+				54A45BEA22B03A2D00EB7240 /* Info.plist */,
+				54A45C0C22B03F5A00EB7240 /* respuestaWish.swift */,
+			);
+			path = Genio;
+			sourceTree = "<group>";
+		};
+		54A45BF222B03A2D00EB7240 /* GenioTests */ = {
+			isa = PBXGroup;
+			children = (
+				54A45BF322B03A2D00EB7240 /* GenioTests.swift */,
+				54A45BF522B03A2D00EB7240 /* Info.plist */,
+			);
+			path = GenioTests;
+			sourceTree = "<group>";
+		};
+		54A45BFD22B03A2D00EB7240 /* GenioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54A45BFE22B03A2D00EB7240 /* GenioUITests.swift */,
+				54A45C0022B03A2D00EB7240 /* Info.plist */,
+			);
+			path = GenioUITests;
+			sourceTree = "<group>";
+		};
+		54A45C0E22B03F9C00EB7240 /* Multimedia */ = {
+			isa = PBXGroup;
+			children = (
+				54A45BE522B03A2D00EB7240 /* Assets.xcassets */,
+			);
+			path = Multimedia;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54A45BDA22B03A2C00EB7240 /* Genio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A45C0322B03A2D00EB7240 /* Build configuration list for PBXNativeTarget "Genio" */;
+			buildPhases = (
+				54A45BD722B03A2C00EB7240 /* Sources */,
+				54A45BD822B03A2C00EB7240 /* Frameworks */,
+				54A45BD922B03A2C00EB7240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Genio;
+			productName = Genio;
+			productReference = 54A45BDB22B03A2C00EB7240 /* Genio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54A45BEE22B03A2D00EB7240 /* GenioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A45C0622B03A2D00EB7240 /* Build configuration list for PBXNativeTarget "GenioTests" */;
+			buildPhases = (
+				54A45BEB22B03A2D00EB7240 /* Sources */,
+				54A45BEC22B03A2D00EB7240 /* Frameworks */,
+				54A45BED22B03A2D00EB7240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54A45BF122B03A2D00EB7240 /* PBXTargetDependency */,
+			);
+			name = GenioTests;
+			productName = GenioTests;
+			productReference = 54A45BEF22B03A2D00EB7240 /* GenioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54A45BF922B03A2D00EB7240 /* GenioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A45C0922B03A2D00EB7240 /* Build configuration list for PBXNativeTarget "GenioUITests" */;
+			buildPhases = (
+				54A45BF622B03A2D00EB7240 /* Sources */,
+				54A45BF722B03A2D00EB7240 /* Frameworks */,
+				54A45BF822B03A2D00EB7240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54A45BFC22B03A2D00EB7240 /* PBXTargetDependency */,
+			);
+			name = GenioUITests;
+			productName = GenioUITests;
+			productReference = 54A45BFA22B03A2D00EB7240 /* GenioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54A45BD322B03A2C00EB7240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = SamArtGS;
+				TargetAttributes = {
+					54A45BDA22B03A2C00EB7240 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					54A45BEE22B03A2D00EB7240 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 54A45BDA22B03A2C00EB7240;
+					};
+					54A45BF922B03A2D00EB7240 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 54A45BDA22B03A2C00EB7240;
+					};
+				};
+			};
+			buildConfigurationList = 54A45BD622B03A2C00EB7240 /* Build configuration list for PBXProject "Genio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54A45BD222B03A2C00EB7240;
+			productRefGroup = 54A45BDC22B03A2C00EB7240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54A45BDA22B03A2C00EB7240 /* Genio */,
+				54A45BEE22B03A2D00EB7240 /* GenioTests */,
+				54A45BF922B03A2D00EB7240 /* GenioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54A45BD922B03A2C00EB7240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A45BE922B03A2D00EB7240 /* LaunchScreen.storyboard in Resources */,
+				54A45BE622B03A2D00EB7240 /* Assets.xcassets in Resources */,
+				54A45BE422B03A2C00EB7240 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A45BED22B03A2D00EB7240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A45BF822B03A2D00EB7240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54A45BD722B03A2C00EB7240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A45BE122B03A2C00EB7240 /* ViewController.swift in Sources */,
+				54A45C0D22B03F5A00EB7240 /* respuestaWish.swift in Sources */,
+				54A45BDF22B03A2C00EB7240 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A45BEB22B03A2D00EB7240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A45BF422B03A2D00EB7240 /* GenioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A45BF622B03A2D00EB7240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A45BFF22B03A2D00EB7240 /* GenioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54A45BF122B03A2D00EB7240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54A45BDA22B03A2C00EB7240 /* Genio */;
+			targetProxy = 54A45BF022B03A2D00EB7240 /* PBXContainerItemProxy */;
+		};
+		54A45BFC22B03A2D00EB7240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54A45BDA22B03A2C00EB7240 /* Genio */;
+			targetProxy = 54A45BFB22B03A2D00EB7240 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54A45BE222B03A2C00EB7240 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54A45BE322B03A2C00EB7240 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54A45BE722B03A2D00EB7240 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54A45BE822B03A2D00EB7240 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54A45C0122B03A2D00EB7240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54A45C0222B03A2D00EB7240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54A45C0422B03A2D00EB7240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDTCRD4BVY;
+				INFOPLIST_FILE = Genio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SamArtGS.Genio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54A45C0522B03A2D00EB7240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDTCRD4BVY;
+				INFOPLIST_FILE = Genio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SamArtGS.Genio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54A45C0722B03A2D00EB7240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDTCRD4BVY;
+				INFOPLIST_FILE = GenioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SamArtGS.GenioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Genio.app/Genio";
+			};
+			name = Debug;
+		};
+		54A45C0822B03A2D00EB7240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDTCRD4BVY;
+				INFOPLIST_FILE = GenioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SamArtGS.GenioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Genio.app/Genio";
+			};
+			name = Release;
+		};
+		54A45C0A22B03A2D00EB7240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDTCRD4BVY;
+				INFOPLIST_FILE = GenioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SamArtGS.GenioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Genio;
+			};
+			name = Debug;
+		};
+		54A45C0B22B03A2D00EB7240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDTCRD4BVY;
+				INFOPLIST_FILE = GenioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SamArtGS.GenioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Genio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54A45BD622B03A2C00EB7240 /* Build configuration list for PBXProject "Genio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A45C0122B03A2D00EB7240 /* Debug */,
+				54A45C0222B03A2D00EB7240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A45C0322B03A2D00EB7240 /* Build configuration list for PBXNativeTarget "Genio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A45C0422B03A2D00EB7240 /* Debug */,
+				54A45C0522B03A2D00EB7240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A45C0622B03A2D00EB7240 /* Build configuration list for PBXNativeTarget "GenioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A45C0722B03A2D00EB7240 /* Debug */,
+				54A45C0822B03A2D00EB7240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A45C0922B03A2D00EB7240 /* Build configuration list for PBXNativeTarget "GenioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A45C0A22B03A2D00EB7240 /* Debug */,
+				54A45C0B22B03A2D00EB7240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54A45BD322B03A2C00EB7240 /* Project object */;
+}
