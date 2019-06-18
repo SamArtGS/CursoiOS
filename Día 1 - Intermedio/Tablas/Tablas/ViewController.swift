@@ -18,15 +18,31 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         return nombres.count
     }
     
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        
         let alert = UIAlertController(title: "Fila Seleccionada", message: "Número \(indexPath.row)", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default) { action in
             
         })
         self.present(alert, animated: true)
+        tableView.deselectRow(at: indexPath, animated: true)
     }
+    
+    
+    /*
+     
+     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+     
+     
+     let alert = UIAlertController(title: "Fila Seleccionada", message: "Número \(indexPath.row)", preferredStyle: .alert)
+     alert.addAction(UIAlertAction(title: "OK", style: .default) { action in
+     
+     })
+     self.present(alert, animated: true)
+     }
+     
+     */
+    
     
     
     
