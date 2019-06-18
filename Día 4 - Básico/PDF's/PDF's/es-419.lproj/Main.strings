@@ -1,0 +1,45 @@
+
+/* Class = "UIViewController"; title = "Tabla"; ObjectID = "4ZZ-aW-XuK"; */
+"4ZZ-aW-XuK.title" = "Tabla";
+
+/* Class = "UINavigationItem"; title = "PDF"; ObjectID = "5r7-oN-bfd"; */
+"5r7-oN-bfd.title" = "PDF";
+
+/* Class = "UIButton"; normalTitle = "STACKS"; ObjectID = "9Tp-cW-YSs"; */
+"9Tp-cW-YSs.normalTitle" = "STACKS";
+
+/* Class = "UIButton"; normalTitle = "Atrás"; ObjectID = "9zE-1v-R7U"; */
+"9zE-1v-R7U.normalTitle" = "Atrás";
+
+/* Class = "UIViewController"; title = "Día 4"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Día 4";
+
+/* Class = "UINavigationItem"; title = "Día 4"; ObjectID = "HOz-NQ-LCa"; */
+"HOz-NQ-LCa.title" = "Día 4";
+
+/* Class = "UIButton"; normalTitle = "COLORES"; ObjectID = "Tog-y6-oQO"; */
+"Tog-y6-oQO.normalTitle" = "COLORES";
+
+/* Class = "UIViewController"; title = "PDF"; ObjectID = "e7P-Dl-ozE"; */
+"e7P-Dl-ozE.title" = "PDF";
+
+/* Class = "UIBarButtonItem"; title = "Tabla"; ObjectID = "hmh-wA-15X"; */
+"hmh-wA-15X.title" = "Tabla";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "klW-ly-IRj"; */
+"klW-ly-IRj.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Siguiente"; ObjectID = "mll-f6-kOs"; */
+"mll-f6-kOs.normalTitle" = "Siguiente";
+
+/* Class = "UIButton"; normalTitle = "ALERTAS"; ObjectID = "vva-qE-q0w"; */
+"vva-qE-q0w.normalTitle" = "ALERTAS";
+
+/* Class = "UIButton"; normalTitle = "GALERIA"; ObjectID = "yfQ-yH-IuK"; */
+"yfQ-yH-IuK.normalTitle" = "GALERIA";
+
+/* Class = "UIButton"; normalTitle = "Alerta"; ObjectID = "zRz-ES-IYY"; */
+"zRz-ES-IYY.normalTitle" = "Alerta";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ziv-Um-n5a"; */
+"ziv-Um-n5a.normalTitle" = "Button";

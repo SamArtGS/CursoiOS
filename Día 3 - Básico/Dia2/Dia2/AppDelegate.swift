@@ -25,10 +25,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Si su aplicación es compatible con ejecución en segundo plano, este método se llama en lugar de applicationWillTerminate: cuando el usuario cierra la app.
     }
     func applicationWillEnterForeground(_ application: UIApplication) {
-        // Llamado como parte de la transición de estar en background a pasar a un estado activo; aquí se puede deshacer muchos de los cambios hechos al entrar en background.
+        // Llamado como parte de la transición de estar en background a pasar a un estado inactivo; aquí se puede deshacer muchos de los cambios hechos al entrar en background.
     }
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Aquí puedes reiniciar las tareas que se han detenido(o no ha empezado) mientras la aplicación estaba inactiva. Si la aplicación estaba previamente en el fondo (background), opcionalmente se puede actualizar la interfaz de usuario.
+        
     }
     func applicationWillTerminate(_ application: UIApplication) {
         // Se llama cuando la aplicación está a punto de terminar. Aquie puedes guardar los datos en caso de ser necesario.
