@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>436817643371-9sa6nqjpva7qfmoh74a75imh6t2erhto.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.436817643371-9sa6nqjpva7qfmoh74a75imh6t2erhto</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBfHFZGQFtJE66SL0XEyXzQgF4_Fs05ux8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>436817643371</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>SamArtGS.iOSInter</string>
+	<key>PROJECT_ID</key>
+	<string>protecointermedio</string>
+	<key>STORAGE_BUCKET</key>
+	<string>protecointermedio.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:436817643371:ios:bce200f68e4a5c38</string>
+	<key>DATABASE_URL</key>
+	<string>https://protecointermedio.firebaseio.com</string>
+</dict>
+</plist>

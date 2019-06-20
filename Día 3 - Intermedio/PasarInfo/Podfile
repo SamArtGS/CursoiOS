@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '10.0'
+
+target 'PasarInfo' do
+
+pod 'Firebase/Core'
+pod 'Firebase/Analytics'
+pod 'FirebaseAuth'
+pod 'Firebase/Auth'
+pod 'FirebaseDatabase'
+pod 'Firebase/Database'
+pod 'FirebaseFunctions'
+pod 'FirebaseStorage'
+pod 'Firebase/Auth'
+
+end
