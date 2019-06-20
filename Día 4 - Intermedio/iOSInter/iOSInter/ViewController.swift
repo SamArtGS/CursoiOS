@@ -7,10 +7,11 @@
 //
 
 import UIKit
-import FirebaseUI
-import FirebaseAuth
+
 
 class ViewController: UIViewController {
+    
+    
     @IBOutlet var correo: UITextField!
     
     @IBOutlet var contrasena: UITextField!
@@ -23,19 +24,4 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
     }
-}
-
-
-
-extension ViewController:FUIAuthDelegate{
-    
-    func authUI(_ authUI: FUIAuth, didSignInWith authDataResult: AuthDataResult?, error: Error?) {
-        if error != nil{
-            return
-        }
-        performSegue(withIdentifier: "InicioSesion", sender: self)
-    }
-    
-    
-
 }

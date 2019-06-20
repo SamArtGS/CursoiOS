@@ -251,7 +251,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="Entrar"/>
                                 <connections>
-                                    <segue destination="UKO-0C-exn" kind="show" id="Qya-FB-QBT"/>
+                                    <action selector="Action:" destination="NJp-tG-Z8O" eventType="touchUpInside" id="8n8-EX-RpK"/>
+                                    <segue destination="UKO-0C-exn" kind="show" id="DzD-j2-aLo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X0i-yU-b5I">
@@ -295,9 +296,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Regresar"/>
-                                <connections>
-                                    <segue destination="NJp-tG-Z8O" kind="show" id="0S7-EL-0gz"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

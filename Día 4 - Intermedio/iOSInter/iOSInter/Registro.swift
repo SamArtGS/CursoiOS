@@ -8,6 +8,7 @@
 
 import UIKit
 import FirebaseAuth
+
 class Registro: UIViewController {
     @IBOutlet var correo: UITextField!
     
@@ -22,18 +23,21 @@ class Registro: UIViewController {
 
     @IBAction func registrar(_ sender: Any) {
         if contrasena.text != confContrasena.text{
-        let alert = UIAlertController(title: "Error Constraseña", message: "No has colocado la contraseña correctamente", preferredStyle: .alert)
-            self.present(alert, animated: true, completion: nil)
+            print("Contraseñas no iguales")
             
         }else{
             Auth.auth().createUser(withEmail: correo.text!, password: contrasena.text!){(user,error) in
                 
                 if error == nil{
-                    self.performSegue(withIdentifier: "InicioSesion", sender: self)
+                    print("Correcto")
+                }else{
+                    print("Error contraseña")
                 }
                 
             }
         }
     }
+    
+    
     
 }
