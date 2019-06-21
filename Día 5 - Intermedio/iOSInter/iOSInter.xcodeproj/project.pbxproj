@@ -13,6 +13,7 @@
 		5422BD6622BD224200189270 /* PerfilSeleccionado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5422BD6522BD224200189270 /* PerfilSeleccionado.swift */; };
 		5422BD6822BD23B700189270 /* Estructuras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5422BD6722BD23B700189270 /* Estructuras.swift */; };
 		5422BD6A22BD341600189270 /* Filtros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5422BD6922BD341600189270 /* Filtros.swift */; };
+		5422BD6C22BD548300189270 /* Galeria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5422BD6B22BD548300189270 /* Galeria.swift */; };
 		543C3BFB22BC0CF100C8BE6D /* Registro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543C3BFA22BC0CF100C8BE6D /* Registro.swift */; };
 		54A650C222BB9F8900B6C07F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A650C122BB9F8900B6C07F /* AppDelegate.swift */; };
 		54A650C422BB9F8900B6C07F /* InicioSesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A650C322BB9F8900B6C07F /* InicioSesion.swift */; };
@@ -54,6 +55,7 @@
 		5422BD6522BD224200189270 /* PerfilSeleccionado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilSeleccionado.swift; sourceTree = "<group>"; };
 		5422BD6722BD23B700189270 /* Estructuras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estructuras.swift; sourceTree = "<group>"; };
 		5422BD6922BD341600189270 /* Filtros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filtros.swift; sourceTree = "<group>"; };
+		5422BD6B22BD548300189270 /* Galeria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galeria.swift; sourceTree = "<group>"; };
 		543C3BFA22BC0CF100C8BE6D /* Registro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registro.swift; sourceTree = "<group>"; };
 		54A650BE22BB9F8900B6C07F /* iOSInter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSInter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54A650C122BB9F8900B6C07F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				543C3BFA22BC0CF100C8BE6D /* Registro.swift */,
 				54C9929322BD14D00055D283 /* OlvidoContrasena.swift */,
 				54A650C522BB9F8900B6C07F /* Main.storyboard */,
+				5422BD6B22BD548300189270 /* Galeria.swift */,
 				5422BD6122BD21C800189270 /* CeldaUsuario.swift */,
 				5422BD6322BD21F500189270 /* Perfiles.swift */,
 				5422BD6522BD224200189270 /* PerfilSeleccionado.swift */,
@@ -480,6 +483,7 @@
 			files = (
 				5422BD6422BD21F500189270 /* Perfiles.swift in Sources */,
 				54C9928F22BD074D0055D283 /* Mapas.swift in Sources */,
+				5422BD6C22BD548300189270 /* Galeria.swift in Sources */,
 				54A650C422BB9F8900B6C07F /* InicioSesion.swift in Sources */,
 				54C9929422BD14D00055D283 /* OlvidoContrasena.swift in Sources */,
 				54A650C222BB9F8900B6C07F /* AppDelegate.swift in Sources */,
