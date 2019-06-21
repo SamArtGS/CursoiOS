@@ -8,15 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		429A7F57DC34037090351E21 /* Pods_iOSInterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29349646985857E3135626EF /* Pods_iOSInterTests.framework */; };
+		5422BD6222BD21C800189270 /* CeldaUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5422BD6122BD21C800189270 /* CeldaUsuario.swift */; };
+		5422BD6422BD21F500189270 /* Perfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5422BD6322BD21F500189270 /* Perfiles.swift */; };
+		5422BD6622BD224200189270 /* PerfilSeleccionado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5422BD6522BD224200189270 /* PerfilSeleccionado.swift */; };
+		5422BD6822BD23B700189270 /* Estructuras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5422BD6722BD23B700189270 /* Estructuras.swift */; };
+		5422BD6A22BD341600189270 /* Filtros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5422BD6922BD341600189270 /* Filtros.swift */; };
 		543C3BFB22BC0CF100C8BE6D /* Registro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543C3BFA22BC0CF100C8BE6D /* Registro.swift */; };
 		54A650C222BB9F8900B6C07F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A650C122BB9F8900B6C07F /* AppDelegate.swift */; };
-		54A650C422BB9F8900B6C07F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A650C322BB9F8900B6C07F /* ViewController.swift */; };
+		54A650C422BB9F8900B6C07F /* InicioSesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A650C322BB9F8900B6C07F /* InicioSesion.swift */; };
 		54A650C722BB9F8900B6C07F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A650C522BB9F8900B6C07F /* Main.storyboard */; };
 		54A650C922BB9F8A00B6C07F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A650C822BB9F8A00B6C07F /* Assets.xcassets */; };
 		54A650CC22BB9F8A00B6C07F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A650CA22BB9F8A00B6C07F /* LaunchScreen.storyboard */; };
 		54A650D722BB9F8A00B6C07F /* iOSInterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A650D622BB9F8A00B6C07F /* iOSInterTests.swift */; };
 		54A650E222BB9F8A00B6C07F /* iOSInterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A650E122BB9F8A00B6C07F /* iOSInterUITests.swift */; };
 		54A650F022BBA2A200B6C07F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54A650EF22BBA2A200B6C07F /* GoogleService-Info.plist */; };
+		54C9928F22BD074D0055D283 /* Mapas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9928E22BD074D0055D283 /* Mapas.swift */; };
+		54C9929422BD14D00055D283 /* OlvidoContrasena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9929322BD14D00055D283 /* OlvidoContrasena.swift */; };
 		59A6A7BA376CB90ED4E7DD72 /* Pods_iOSInter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B177F1BE69B78E78368A8D6D /* Pods_iOSInter.framework */; };
 		94F3F373886FE9C4CBE9721E /* Pods_iOSInterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFAF045135090DDDF1880F4 /* Pods_iOSInterUITests.framework */; };
 /* End PBXBuildFile section */
@@ -42,10 +49,15 @@
 		01A9C6373CF6BC1DDCBDB9D4 /* Pods-iOSInter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSInter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSInter/Pods-iOSInter.debug.xcconfig"; sourceTree = "<group>"; };
 		1AFAF045135090DDDF1880F4 /* Pods_iOSInterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSInterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29349646985857E3135626EF /* Pods_iOSInterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSInterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5422BD6122BD21C800189270 /* CeldaUsuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaUsuario.swift; sourceTree = "<group>"; };
+		5422BD6322BD21F500189270 /* Perfiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfiles.swift; sourceTree = "<group>"; };
+		5422BD6522BD224200189270 /* PerfilSeleccionado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilSeleccionado.swift; sourceTree = "<group>"; };
+		5422BD6722BD23B700189270 /* Estructuras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estructuras.swift; sourceTree = "<group>"; };
+		5422BD6922BD341600189270 /* Filtros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filtros.swift; sourceTree = "<group>"; };
 		543C3BFA22BC0CF100C8BE6D /* Registro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registro.swift; sourceTree = "<group>"; };
 		54A650BE22BB9F8900B6C07F /* iOSInter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSInter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54A650C122BB9F8900B6C07F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54A650C322BB9F8900B6C07F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54A650C322BB9F8900B6C07F /* InicioSesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioSesion.swift; sourceTree = "<group>"; };
 		54A650C622BB9F8900B6C07F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54A650C822BB9F8A00B6C07F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54A650CB22BB9F8A00B6C07F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +69,9 @@
 		54A650E122BB9F8A00B6C07F /* iOSInterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSInterUITests.swift; sourceTree = "<group>"; };
 		54A650E322BB9F8A00B6C07F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54A650EF22BBA2A200B6C07F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		54C9928E22BD074D0055D283 /* Mapas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapas.swift; sourceTree = "<group>"; };
+		54C9929322BD14D00055D283 /* OlvidoContrasena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlvidoContrasena.swift; sourceTree = "<group>"; };
+		54C9929522BD17BC0055D283 /* iOSInter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSInter.entitlements; sourceTree = "<group>"; };
 		5841FA3AD2F37C8E54BCE560 /* Pods-iOSInterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSInterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSInterUITests/Pods-iOSInterUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F452EE5234B927994B13E49 /* Pods-iOSInterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSInterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSInterTests/Pods-iOSInterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A5A0B334885124C2261D3E60 /* Pods-iOSInterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSInterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSInterUITests/Pods-iOSInterUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,10 +146,18 @@
 		54A650C022BB9F8900B6C07F /* iOSInter */ = {
 			isa = PBXGroup;
 			children = (
+				54C9929522BD17BC0055D283 /* iOSInter.entitlements */,
 				54A650C122BB9F8900B6C07F /* AppDelegate.swift */,
-				54A650C322BB9F8900B6C07F /* ViewController.swift */,
+				54A650C322BB9F8900B6C07F /* InicioSesion.swift */,
 				543C3BFA22BC0CF100C8BE6D /* Registro.swift */,
+				54C9929322BD14D00055D283 /* OlvidoContrasena.swift */,
 				54A650C522BB9F8900B6C07F /* Main.storyboard */,
+				5422BD6122BD21C800189270 /* CeldaUsuario.swift */,
+				5422BD6322BD21F500189270 /* Perfiles.swift */,
+				5422BD6522BD224200189270 /* PerfilSeleccionado.swift */,
+				54C9928E22BD074D0055D283 /* Mapas.swift */,
+				5422BD6922BD341600189270 /* Filtros.swift */,
+				5422BD6722BD23B700189270 /* Estructuras.swift */,
 				54A650C822BB9F8A00B6C07F /* Assets.xcassets */,
 				54A650CA22BB9F8A00B6C07F /* LaunchScreen.storyboard */,
 				54A650CD22BB9F8A00B6C07F /* Info.plist */,
@@ -244,6 +267,14 @@
 				TargetAttributes = {
 					54A650BD22BB9F8900B6C07F = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
 					};
 					54A650D122BB9F8A00B6C07F = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -447,9 +478,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54A650C422BB9F8900B6C07F /* ViewController.swift in Sources */,
+				5422BD6422BD21F500189270 /* Perfiles.swift in Sources */,
+				54C9928F22BD074D0055D283 /* Mapas.swift in Sources */,
+				54A650C422BB9F8900B6C07F /* InicioSesion.swift in Sources */,
+				54C9929422BD14D00055D283 /* OlvidoContrasena.swift in Sources */,
 				54A650C222BB9F8900B6C07F /* AppDelegate.swift in Sources */,
+				5422BD6222BD21C800189270 /* CeldaUsuario.swift in Sources */,
+				5422BD6622BD224200189270 /* PerfilSeleccionado.swift in Sources */,
+				5422BD6A22BD341600189270 /* Filtros.swift in Sources */,
 				543C3BFB22BC0CF100C8BE6D /* Registro.swift in Sources */,
+				5422BD6822BD23B700189270 /* Estructuras.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,6 +663,7 @@
 			baseConfigurationReference = 01A9C6373CF6BC1DDCBDB9D4 /* Pods-iOSInter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iOSInter/iOSInter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FDTCRD4BVY;
 				INFOPLIST_FILE = iOSInter/Info.plist;
@@ -644,6 +683,7 @@
 			baseConfigurationReference = DA0C1347A3B91DCABE218CA9 /* Pods-iOSInter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iOSInter/iOSInter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FDTCRD4BVY;
 				INFOPLIST_FILE = iOSInter/Info.plist;
